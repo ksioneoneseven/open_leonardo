@@ -77,9 +77,10 @@ Follow these steps to set up and run the application:
 
 ## Project Structure
 
+```text
 paint_clone/
 ├── paint_app/
-│   ├── init.py         # Makes paint_app a Python package
+│   ├── __init__.py         # Makes paint_app a Python package
 │   ├── canvas_widget.py    # Custom widget for the drawing canvas
 │   ├── main_window.py      # Defines the main application window, menus, toolbar
 │   └── main.py             # Main application entry point script
